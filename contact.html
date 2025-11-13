@@ -25,13 +25,19 @@
     <!--Contact Section-->
      <main class="contact-section">
     <h2 class="section-title">Get In Touch</h2>
-    <p class="contact-info">Feel free to reach out through the form below or directly via email or LinkedIn.</p>
+    <p class="contact-intro">Feel free to reach out through the form below or directly via email or LinkedIn.</p>
 
-    <form class="contact-form">
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <textarea rows="5" placeholder="Your Message" required></textarea>
-          <button type="submit" class="btn">Send Message</button>
+  <form action="https://formspree.io/f/xzzyzdgr" method="POST" class="contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
     </form>
   </main>
 
@@ -46,4 +52,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
