@@ -310,59 +310,55 @@ footer a:hover {
    Contact Section
    ======================================================= */
 
-   .contact-section {
+  .contact-section {
   padding: 6rem 2rem;
   text-align: center;
-  background: radial-gradient(circle at center, #0a0f1c 40%, #040811 100%);
+  background: #080d1a;
 }
 
-.contact-info {
-  color: #d3d3d3;
-  margin-bottom: 2rem;
+.contact-intro {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: #ccc;
+  font-size: 1rem;
 }
 
 .contact-form {
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1rem;
-  max-width: 500px;
-  margin: 0 auto;
+}
+
+.contact-form label {
+  text-align: left;
+  color: #00ffff;
+  font-weight: 500;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 1rem;
-  border-radius: 10px;
+  padding: 0.8rem;
   border: 1px solid #00ffff33;
-  background: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  border-radius: 6px;
+  background: rgba(5, 8, 16, 0.8);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  outline: none;
   border-color: #00ffff;
-  box-shadow: 0 0 10px #1e90ff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
 }
-
 .contact-form button {
-  background: linear-gradient(90deg, #00ffff, #1e90ff);
-  border: none;
-  color: #0a0f1c;
-  font-weight: 600;
-  padding: 0.8rem 2rem;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: 0.3s;
+  align-self: flex-start;
 }
 
-.contact-form button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px #00ffff;
-}
 
 /* =======================================================
    Hobbies Section
@@ -440,5 +436,6 @@ footer a:hover {
   color: #d3d3d3;
   line-height: 1.6;
 }
+
 
 
