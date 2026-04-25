@@ -5,6 +5,8 @@ This site showcases my skills, projects, and background as an aspiring **Softwar
 
 🔗 **Live Website:**  
 https://YOUR-USERNAME.github.io/ThaboPortfolio/
+🔗 **Deployed:**  
+https://tmsportfolio.netlify.app/
 
 ---
 
