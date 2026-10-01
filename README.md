@@ -4,7 +4,7 @@ Welcome to my personal portfolio website.
 This site showcases my skills, projects, and background as an aspiring **Software Developer** and **Cybersecurity Enthusiast**.
 
 🔗 **Live Website:**  
-https://YOUR-USERNAME.github.io/ThaboPortfolio/
+https://stormy312.github.io/ThaboPortfolio/
 🔗 **Deployed:**  
 https://tmsportfolio.netlify.app/
 
